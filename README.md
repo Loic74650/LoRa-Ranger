@@ -4,7 +4,7 @@
 <h4>Brief description</h4>
 	
 <p>This node is based on the Adafruit Feather 32u4 board.<br />
-An ultra-sound sensor measures distance to a target.<br />
+An ultra-sound sensor measures distance to a target (2-350cm range).<br />
 Measured distance, battery voltage and some optional I/Os are then periodically published to the TTN servers over LoraWan protocol.<br />
 In deep-sleep the Feather board consumption is 300uA, ie. too high for our purpose. Low power / long battery life is therefore achieved by shutting down the Feather board completely between measurements.<br />
 This is done by using the Adafruit TPL5110 breakout board.<br />
